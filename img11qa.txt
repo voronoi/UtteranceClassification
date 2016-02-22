@@ -1,0 +1,19 @@
+ 
+The accuracy for this classifier is 0.875
+>>> print '\nHere is the classification report:'
+
+Here is the classification report:
+>>> print classification_report(qaGT, finalQAResults)
+             precision    recall  f1-score   support
+
+          A       0.80      1.00      0.89        20
+          Q       1.00      0.75      0.86        20
+
+avg / total       0.90      0.88      0.87        40
+
+>>> print '\nHere is the confusion matrix:'
+
+Here is the confusion matrix:
+>>> print metrics.confusion_matrix(qaGT, finalQAResults)    
+[[20  0]
+ [ 5 15]]

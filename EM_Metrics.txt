@@ -1,0 +1,20 @@
+
+
+
+The accuracy for this classifier is 0.825
+
+Here is the classification report:
+>>> print classification_report(finalTestTruth, finalSVCPredicted)
+             precision    recall  f1-score   support
+
+          E       0.84      0.80      0.82        40
+          M       0.81      0.85      0.83        40
+
+avg / total       0.83      0.82      0.82        80
+
+
+Here is the confusion matrix:
+>>> print metrics.confusion_matrix(finalTestTruth, finalSVCPredicted)    
+[[32  8]
+ [ 6 34]]
+

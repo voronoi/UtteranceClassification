@@ -1,0 +1,21 @@
+40 Question/Answer Correctly Classified
+100.0% accuracy
+35 Emotional/Material Correctly Classified
+87.5% accuracy
+The precision for this classifier is 0.894736842105
+The recall for this classifier is 0.85
+The f1 for this classifier is 0.871794871795
+The accuracy for this classifier is 0.875
+
+Here is the classification report:
+             precision    recall  f1-score   support
+
+          0       0.86      0.90      0.88        20
+          1       0.89      0.85      0.87        20
+
+avg / total       0.88      0.88      0.87        40
+
+
+Here is the confusion matrix:
+[[18  2]
+ [ 3 17]]
